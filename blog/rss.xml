@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>let.sh docs Blog</title>
+        <link>https://docs.let.sh.cn/blog</link>
+        <description>let.sh docs Blog</description>
+        <lastBuildDate>Fri, 17 Jan 2020 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[The Oasis]]></title>
+            <link>https://docs.let.sh.cn/blog/bootstrap</link>
+            <guid>bootstrap</guid>
+            <pubDate>Fri, 17 Jan 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[//TBD]]></description>
+        </item>
+    </channel>
+</rss>
