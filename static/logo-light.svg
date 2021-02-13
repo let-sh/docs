@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="106px" height="46px" viewBox="0 0 106 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>let.sh</title>
+    <defs>
+        <filter x="-11.7%" y="-2.2%" width="123.4%" height="104.5%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0402637513   0 0 0 0 0.379379462   0 0 0 0 0.702473958  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Console-V0.1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="ProductSans-Bold, Product Sans" font-size="36" font-weight="bold">
+        <g id="Nav" transform="translate(-16.000000, -14.000000)" fill="#072A12" filter="url(#filter-1)">
+            <text id="let.sh">
+                <tspan x="24" y="48">let.sh</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

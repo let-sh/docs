@@ -1,0 +1,10 @@
+{
+    "title": "let.sh docs",
+    "url": "https://docs.let.sh/",
+    "logo": {
+      "light": "/logo-light.svg",
+      "dark": "/logo-dark.svg"
+    },
+    "github": "let-sh/docs",
+    "defaultBranch": "main"
+  }
