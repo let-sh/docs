@@ -9,7 +9,7 @@ badge: Pro
 
 let.sh will bind path `/__/` by default for common used plugins, you could directly using `/__/${plugin_name}/${plugin_endpoint}` endpoint
 
-Take `firebase` for example, let's say you are adding google analytics to your project, you could directly import from your current url:
+Take `firebase` for example, let's say you are adding google analytics to your project with firebase integration, you could directly import from your current url:
 
 ```html
 <body>
