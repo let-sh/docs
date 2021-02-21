@@ -13,7 +13,6 @@ Open your terminal, copy the the command below and run it:
 
 ```bash
 # install cli
-# optional: you can use npm or yarn instead: npm install -g @letsh/cli or yarn global add @letsh/cli
 curl -o- -sL https://install.let.sh.cn/install.sh | bash
 ```
 
