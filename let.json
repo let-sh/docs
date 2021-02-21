@@ -1,4 +1,7 @@
 {
     "name":"docs",
-    "link":["docs.let.sh"]
+    "rewrite":[{
+        "source":"*",
+        "destination":"/404.html"
+    }]
 }
