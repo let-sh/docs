@@ -1,7 +1,7 @@
 ---
 title: let.json
 category: Cli
-position: 6
+position: 102
 ---
 
 ## Priority order of configuration
@@ -59,3 +59,7 @@ If you have frameworks want to use, please let us know: [Feature Reuquest](https
 The static files folder of current project
 
 if you have static file wanna to host via <let.sh>, please specify this param. let.sh will automatically bind the files in the root path
+
+### rewrite
+
+### redirect

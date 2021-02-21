@@ -1,13 +1,13 @@
 ---
 title: Gin Framework
 category: Handbook
-position: 20
+position: 200
 badge: Starter
 ---
 
 ## Create `main.go` file
 
-<alert type="info">
+<alert type="warning">
 The exposing http port is provide by the `port` env, please bind the port read by the env.
 </alert>
 
