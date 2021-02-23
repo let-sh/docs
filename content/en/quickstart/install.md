@@ -10,5 +10,15 @@ badge: Starter
 Open your terminal, copy the the command below and run it:
 
 ```bash
-curl -o- -sL https://install.let.sh.cn/install.sh | bash
+bash <(curl -sL https://install.let.sh.cn/install.sh)
 ```
+
+You can also specify a version by running the following code in your terminal:
+
+```bash
+bash <(curl -sL https://install.let.sh.cn/install.sh) --version VERSION
+```
+
+See the [Releases](https://github.com/let-sh/cli/releases) for possible versions.
+
+**Note:** Please open another terminal where the `lets` command will now be available.
