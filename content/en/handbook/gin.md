@@ -14,7 +14,10 @@ The exposing http port is provide by the `port` env, please bind the port read b
 ```go{}[main.go]
 package main
 
-import "github.com/gin-gonic/gin"
+import (
+    "github.com/gin-gonic/gin"
+    "os"
+)
 
 func main() {
     r := gin.Default()
