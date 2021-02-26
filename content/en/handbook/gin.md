@@ -1,14 +1,15 @@
 ---
 title: Gin Framework
 category: Handbook
-position: 202
+position: 203
 badge: Starter
 ---
 
 ## Create `main.go` file
 
 <alert type="warning">
-The exposing http port is provide by the `port` env, please bind the port read by the env.
+The exposing http port is provide by the `port` env,
+please bind the port read by the env.
 </alert>
 
 ```go{}[main.go]
@@ -28,10 +29,10 @@ func main() {
     })
     // read the `port` env
     port := os.Getenv("PORT")
-	if port == "" {
-		port = "8080"
-	}
-	r.Run(":" + port)
+    if port == "" {
+        port = "8080"
+    }
+    r.Run(":" + port)
 }
 ```
 

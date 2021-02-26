@@ -21,4 +21,6 @@ bash <(curl -sL https://install.let.sh.cn/install.sh) --version VERSION
 
 See the [Releases](https://github.com/let-sh/cli/releases) for possible versions.
 
-**Note:** Please open another terminal where the `lets` command will now be available.
+<alert type="warning">
+Note: Please open another terminal where the `lets` command will now be available.
+</alert>

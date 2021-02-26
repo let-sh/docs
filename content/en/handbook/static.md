@@ -1,5 +1,5 @@
 ---
-title: Static
+title: Static Files Hosting
 category: Handbook
 position: 200
 badge: Starter
