@@ -13,7 +13,7 @@ Open your terminal, copy the the command below and run it:
 
 ```bash
 # install cli
-bash <(curl -sL https://install.let.sh.cn/install.sh)
+curl https://install.let.sh.cn/install.sh | sh
 ```
 
 ### Login
