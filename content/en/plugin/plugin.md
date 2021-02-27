@@ -5,6 +5,8 @@ position: 300
 badge: Pro
 ---
 
+## Why plugin system
+
 ## What is let.sh plugin
 
 let.sh will bind path `/__/` by default for common used plugins, you could directly using `/__/${plugin_name}/${plugin_endpoint}` endpoint
