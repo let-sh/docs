@@ -25,37 +25,48 @@ lets login
 
 ### Then clone example project and deploy with a single command line
 
-#### Static hosting
+<code-group>
+  <code-block label="static" active>
 
 ```bash
+# static hosting
 git clone https://github.com/let-sh/example
 cd static
-lets deploy -t static
+lets deploy
 ```
 
-#### React
+  </code-block>
+  <code-block label="react">
 
 ```bash
+# react framework
 git clone https://github.com/let-sh/example
 cd react
-lets deploy -t react
+lets deploy
 ```
 
-#### Node express framework
+  </code-block>
+  <code-block label="express">
 
 ```bash
+# node express framework
 git clone https://github.com/let-sh/example
 cd express
-lets deploy -t express
+lets deploy
 ```
 
-#### Golang gin framework
+  </code-block>
+  <code-block label="gin">
 
 ```bash
+# golang gin framework
 git clone https://github.com/let-sh/example
-cd gin
-lets deploy -t gin
+cd express
+lets deploy
 ```
+
+  </code-block>
+</code-group>
 
 ### Link the domain to the project
 

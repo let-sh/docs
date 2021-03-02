@@ -1,7 +1,7 @@
 ---
-title: Nuxt.js Framework
+title: Nuxt.js
 category: Handbook
-position: 201
+position: 203
 badge: Starter
 ---
 

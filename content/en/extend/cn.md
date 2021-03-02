@@ -13,12 +13,14 @@ For user who want to deploy your own projects in the mainland of China, please c
 
 ### let.sh Domains
 
-The global domain [let.sh](let.sh) not available for deployments to global, the users in mainland of China will visit servers outside the mainland of China. If you want to deploy service to mainland of China and entered the beta program, please use <let.sh.cn>.
+The global domain [let.sh](let.sh) not available for deployments to global, the users in mainland of China will visit servers outside the mainland of China. If you want to deploy service to mainland of China and entered the beta program, please use [let.sh.cn](let.sh.cn).
 
 ### Custom Domains
 
 <alert type="warning">
+
 Please ensure your custom domain already finshed the [ICP Registration](https://en.wikipedia.org/wiki/ICP_license) under the [Tencent Cloud](https://intl.cloud.tencent.com)
+
 </alert>
 
 The dns cname source for mainland of China service are different. Once you have enable the ability to deploy in mainland of China, please use `cn.oasis.name` as your cname source.
