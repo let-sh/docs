@@ -10,5 +10,5 @@ badge: Starter
 Open your terminal, copy the the command below and run it:
 
 ```bash
-curl -o- -sL https://install.let.sh.cn/install.sh | bash
+curl -o- -sL https://install.let.sh/install.sh | bash
 ```
