@@ -5,6 +5,10 @@ position: 250
 badge: Starter
 ---
 
+## Quick start demo
+
+[![asciicast](https://asciinema.org/a/412897.svg)](https://asciinema.org/a/412897)
+
 ## Init flask project via cli
 
 > cli init method will creat folder with name `flask` in the current directory.

@@ -11,6 +11,10 @@ For futher framework related tutorial: [https://reactjs.org/docs/create-a-new-re
 
 </alert>
 
+## Quick start demo
+
+[![asciicast](https://asciinema.org/a/nhhPcgtSCwjLOpEFfGcS9sCyS.svg)](https://asciinema.org/a/nhhPcgtSCwjLOpEFfGcS9sCyS)
+
 ## Init Project
 
 > please ensure you have installed `npx` in advance

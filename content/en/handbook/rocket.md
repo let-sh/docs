@@ -5,6 +5,10 @@ position: 253
 badge: Starter
 ---
 
+## Quick start demo:
+
+[![asciicast](https://asciinema.org/a/412893.svg)](https://asciinema.org/a/412893)
+
 ## Init rocket project via cli
 
 > cli init method will creat folder with name `rocket` in the current directory.

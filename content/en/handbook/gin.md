@@ -5,6 +5,10 @@ position: 252
 badge: Starter
 ---
 
+## Quick start demo
+
+[![asciicast](https://asciinema.org/a/412896.svg)](https://asciinema.org/a/412896)
+
 ## Create `main.go` file
 
 <alert type="warning">
