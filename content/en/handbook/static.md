@@ -5,6 +5,10 @@ position: 200
 badge: Starter
 ---
 
+## Quick start demo:
+
+<AsciiPlayer id="412904"></AsciiPlayer>
+
 ## Create `index.html` file
 
 ```html{}[index.html]

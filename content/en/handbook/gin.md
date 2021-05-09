@@ -7,7 +7,7 @@ badge: Starter
 
 ## Quick start demo
 
-[![asciicast](https://asciinema.org/a/412896.svg)](https://asciinema.org/a/412896)
+<AsciiPlayer id="412896"></AsciiPlayer>
 
 ## Create `main.go` file
 

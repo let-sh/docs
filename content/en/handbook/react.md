@@ -13,7 +13,7 @@ For futher framework related tutorial: [https://reactjs.org/docs/create-a-new-re
 
 ## Quick start demo
 
-[![asciicast](https://asciinema.org/a/nhhPcgtSCwjLOpEFfGcS9sCyS.svg)](https://asciinema.org/a/nhhPcgtSCwjLOpEFfGcS9sCyS)
+<AsciiPlayer id="nhhPcgtSCwjLOpEFfGcS9sCyS"></AsciiPlayer>
 
 ## Init Project
 

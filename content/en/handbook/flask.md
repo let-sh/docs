@@ -7,7 +7,7 @@ badge: Starter
 
 ## Quick start demo
 
-[![asciicast](https://asciinema.org/a/412897.svg)](https://asciinema.org/a/412897)
+<AsciiPlayer id="412897"></AsciiPlayer>
 
 ## Init flask project via cli
 

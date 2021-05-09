@@ -7,7 +7,7 @@ badge: Starter
 
 ## Quick start demo:
 
-[![asciicast](https://asciinema.org/a/412893.svg)](https://asciinema.org/a/412893)
+<AsciiPlayer id="412893"></AsciiPlayer>
 
 ## Init rocket project via cli
 
