@@ -44,8 +44,7 @@ lets login
 
 ```bash
 # static hosting
-git clone https://github.com/let-sh/example
-cd static
+lets init static
 lets deploy
 ```
 
@@ -54,8 +53,7 @@ lets deploy
 
 ```bash
 # react framework
-git clone https://github.com/let-sh/example
-cd react
+lets init react
 lets deploy
 ```
 
@@ -64,8 +62,7 @@ lets deploy
 
 ```bash
 # node express framework
-git clone https://github.com/let-sh/example
-cd express
+lets init express
 lets deploy
 ```
 
@@ -74,8 +71,7 @@ lets deploy
 
 ```bash
 # golang gin framework
-git clone https://github.com/let-sh/example
-cd express
+lets init gin
 lets deploy
 ```
 
