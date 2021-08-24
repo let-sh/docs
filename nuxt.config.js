@@ -28,5 +28,17 @@ export default theme({
   content: {
     // Disable for security reason on CodeSandBox
     liveEdit: true
+  },
+
+  modules: ['@nuxtjs/gtm'],
+
+  gtm: {
+    id: 'GTM-K4XN9CR' // Used as fallback if no runtime config is provided
+  },
+
+  publicRuntimeConfig: {
+    gtm: {
+      id: process.env.GOOGLE_TAG_MANAGER_ID
+    }
   }
 })

@@ -13,6 +13,7 @@
   "dependencies": {
     "@nuxt/content": "^1.11.1",
     "@nuxt/content-theme-docs": "^0.10.1",
+    "@nuxtjs/gtm": "^2.4.0",
     "core-js": "^3.8.3",
     "nuxt": "^2.14.12",
     "prism-themes": "^1.5.0",
