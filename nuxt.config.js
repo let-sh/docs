@@ -9,6 +9,14 @@ export default theme({
     primaryColor: '#0786ff'
   },
 
+  components: {
+    dirs: [
+      '~/components',
+      '~/components/global/app',
+      '~/components/global/icons',
+      '~/components/global/markdown'
+    ]
+  },
   // i18n
   // i18n: {
   //   locales: () => [{
@@ -27,7 +35,10 @@ export default theme({
 
   content: {
     // Disable for security reason on CodeSandBox
-    liveEdit: true
+    liveEdit: true,
+    markdown: {
+      rehypePlugins: ['~/plugins/rehype-content-image.js']
+    }
   },
 
   modules: ['@nuxtjs/gtm'],
