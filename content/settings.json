@@ -6,5 +6,6 @@
       "dark": "/logo-dark.svg"
     },
     "github": "let-sh/docs",
-    "defaultBranch": "main"
+    "defaultBranch": "main",
+    "defaultDir":""
   }
