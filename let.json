@@ -1,7 +1,3 @@
 {
-    "name":"docs",
-    "rewrite":[{
-        "source":"*",
-        "destination":"/404.html"
-    }]
+    "name":"docs"
 }
