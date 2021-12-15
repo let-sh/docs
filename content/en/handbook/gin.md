@@ -43,7 +43,7 @@ func main() {
 
 ```shell
 go mod init gin-demo
-go mod tidy
+go mod download
 ```
 
 ## Deploy to let.sh
