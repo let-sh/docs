@@ -10,7 +10,7 @@ Login to your let.sh account on current device.
 
 ## dev
 
-Start an local developent envirmont, let.sh cli will automatically expose your local service to an public url you could share with others.
+Start an local developent envirmont, let.sh cli will automatically expose your local service to an public url you could share with others.(currently only support proxy http protocol, public visit via https endpoint)
 
 Supported flags:
 
