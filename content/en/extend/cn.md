@@ -13,7 +13,7 @@ For user who want to deploy your own projects in the mainland of China, please c
 
 ### let.sh Domains
 
-The global domain [let.sh](let.sh) not available for deployments to global, the users in mainland of China will visit servers outside the mainland of China. If you want to deploy service to mainland of China and entered the beta program, please use [let.sh.cn](let.sh.cn).
+The global domain [let.sh](let.sh) is only available for deployments outside mainland of China, the users inside the mainland of China will visit servers outside the China(which might cause unstable visiting experience). If you want to deploy service to mainland of China and have accepted by the program, your services will be automated deployed to the [let.sh.cn](let.sh.cn) in `lets deploy`.
 
 ### Custom Domains
 
