@@ -58,6 +58,15 @@ lets deploy
 ```
 
   </code-block>
+  <code-block label="flask">
+
+```bash
+# python flask framework
+lets init flask
+lets deploy
+```
+
+  </code-block>
   <code-block label="express">
 
 ```bash
