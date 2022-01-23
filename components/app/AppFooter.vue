@@ -12,7 +12,6 @@
         </a>
       </div>
       <div class="flex items-center space-x-4">
-        <AppLangSwitcher />
         <AppColorSwitcher />
       </div>
     </div>
@@ -21,11 +20,11 @@
 
 <script>
 export default {
-  name: 'AppFooter',
+  name: "AppFooter",
   computed: {
-    availableLocales () {
-      return this.$i18n.locales.filter(i => i.code !== this.$i18n.locale)
-    }
-  }
-}
+    availableLocales() {
+      return this.$i18n.locales.filter((i) => i.code !== this.$i18n.locale);
+    },
+  },
+};
 </script>

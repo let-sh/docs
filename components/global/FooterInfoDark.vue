@@ -1,3 +1,3 @@
 <template>
-  <h3>Powered by let.sh</h3>
+  <h4 class="h-6">Powered by let.sh</h4>
 </template>

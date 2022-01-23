@@ -1,5 +1,5 @@
 <template>
-  <figure :id="id" class="asciinema"></figure>
+  <figure :id="id" class="asciinema" />
 </template>
 
 <script>

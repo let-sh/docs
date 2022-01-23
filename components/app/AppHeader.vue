@@ -29,8 +29,7 @@
           </NuxtLink>
           <a
             href="https://alpha.let.sh"
-            class="flex-shrink-0 flex-1 font-bold
-            text-xl"
+            class="flex-shrink-0 flex-1 font-bold text-xl"
             :aria-label="`${settings.title} Logo`"
           >
             <span
@@ -53,7 +52,10 @@
         </div>
         <div
           class="lg:w-1/5 flex items-center pl-4 lg:pl-8"
-          :class="{ 'justify-between': lastRelease && settings.layout !== 'single', 'justify-end': !lastRelease || settings.layout === 'single' }"
+          :class="{
+            'justify-between': lastRelease && settings.layout !== 'single',
+            'justify-end': !lastRelease || settings.layout === 'single',
+          }"
         >
           <NuxtLink
             v-if="lastRelease"
@@ -62,6 +64,7 @@
             exact-active-class="text-primary-500"
             >{{ lastRelease.name }}</NuxtLink
           >
+          <AppLangSwitcher />
           <div class="flex items-center">
             <a
               v-if="settings.twitter"
@@ -72,7 +75,7 @@
               name="Twitter"
               class="text-gray-700 dark:text-gray-300 hover:text-primary-500 dark-hover:text-primary-500 ml-4"
               :class="{
-                'hidden lg:block': settings.layout !== 'single'
+                'hidden lg:block': settings.layout !== 'single',
               }"
             >
               <IconTwitter class="w-5 h-5" />
@@ -86,7 +89,7 @@
               name="Github"
               class="text-gray-700 dark:text-gray-300 hover:text-primary-500 dark-hover:text-primary-500 ml-4"
               :class="{
-                'hidden lg:block': settings.layout !== 'single'
+                'hidden lg:block': settings.layout !== 'single',
               }"
             >
               <IconGithub class="w-5 h-5" />
@@ -109,57 +112,53 @@
 </template>
 
 <script>
-import { mapGetters } from 'vuex'
+import { mapGetters } from "vuex";
 export default {
-  data () {
+  data() {
     return {
-      scrolled: 0
-    }
+      scrolled: 0,
+    };
   },
   computed: {
-    ...mapGetters([
-      'settings',
-      'githubUrls',
-      'lastRelease'
-    ]),
+    ...mapGetters(["settings", "githubUrls", "lastRelease"]),
     menu: {
-      get () {
-        return this.$store.state.menu.open
+      get() {
+        return this.$store.state.menu.open;
       },
-      set (val) {
-        this.$store.commit('menu/toggle', val)
-      }
+      set(val) {
+        this.$store.commit("menu/toggle", val);
+      },
     },
-    logo () {
+    logo() {
       if (!this.settings.logo) {
-        return
+        return;
       }
-      if (typeof this.settings.logo === 'object') {
-        return this.settings.logo
+      if (typeof this.settings.logo === "object") {
+        return this.settings.logo;
       }
       return {
         light: this.settings.logo,
-        dark: this.settings.logo
-      }
-    }
+        dark: this.settings.logo,
+      };
+    },
   },
-  beforeMount () {
-    window.addEventListener('scroll', this.handleScroll)
+  beforeMount() {
+    window.addEventListener("scroll", this.handleScroll);
   },
-  beforeDestroy () {
-    window.removeEventListener('scroll', this.handleScroll)
+  beforeDestroy() {
+    window.removeEventListener("scroll", this.handleScroll);
   },
   methods: {
-    handleScroll () {
-      this.scrolled = window.scrollY > 0
+    handleScroll() {
+      this.scrolled = window.scrollY > 0;
     },
-    scrollToTop () {
+    scrollToTop() {
       if (window.innerWidth >= 1280) {
-        return
+        return;
       }
-      window.scrollTo(0, 0)
+      window.scrollTo(0, 0);
     },
-    noop () { }
-  }
-}
+    noop() {},
+  },
+};
 </script>

@@ -17,28 +17,32 @@ export default theme({
       '~/components/global/markdown'
     ]
   },
-  // i18n
-  // i18n: {
-  //   locales: () => [{
-  //     code: 'fr',
-  //     iso: 'fr-FR',
-  //     file: 'fr-FR.js',
-  //     name: 'Français'
-  //   }, {
-  //     code: 'en',
-  //     iso: 'en-US',
-  //     file: 'en-US.js',
-  //     name: 'English'
-  //   }],
-  //   defaultLocale: 'en'
-  // },
+
+  i18n: {
+    // silentTranslationWarn: true,
+    vueI18n: {
+      silentTranslationWarn: true
+    },
+    locales: () => [{
+      code: 'zh',
+      iso: 'zh-CN',
+      file: 'zh-CN.js',
+      name: '简体中文'
+    }, {
+      code: 'en',
+      iso: 'en-US',
+      file: 'en-US.js',
+      name: 'English'
+    }]
+    // defaultLocale: 'en'
+  },
 
   content: {
     // Disable for security reason on CodeSandBox
     liveEdit: true,
-    markdown: {
-      rehypePlugins: ['~/plugins/rehype-content-image.js']
-    }
+    // markdown: {
+    //   rehypePlugins: ['~/plugins/rehype-content-image.js']
+    // }
   },
 
   modules: ['@nuxtjs/gtm'],
