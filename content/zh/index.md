@@ -80,7 +80,7 @@ lets deploy
   </code-block>
 </code-group>
 
-### 帮忙域名到当前项目
+### 绑定域名到当前项目
 
 > 你可以替换 xxxx.let.sh 为你喜欢的以 let.sh 结尾的域名(如果没有被其他人占用的话)
 

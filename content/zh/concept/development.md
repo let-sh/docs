@@ -5,6 +5,6 @@ position: 51
 badge: Alpha
 ---
 
-## What is development?
+## 什么是 lets development?
 
-During our development proccess, its always hard to start your service, debugging and share with other to preview you services. Thats why we created the `development`(`lets dev` in CLI) for you to start your service from localhost, debugging and even directly share with others.
+在本地开发过程中，调试网络请求&与其他人直接分享可公网访问的链接是非常复杂的工作，甚至需要多个工具相互协同。 这就是为什么我们创建了`development`（命令行中的 `lets dev`）让您从本地主机启动您的服务，直接与他人共享可公网访问的服务链接。

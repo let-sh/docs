@@ -6,20 +6,20 @@ position: 50
 
 ## Project
 
-Currently every project have two channels, `dev` and `prod`, and the deployments in two channels are individual.
+目前每个项目都有两个环境，`dev` 和 `prod`，两个环境中的服务部署是独立的。
 
-The linked domains only avaliable on `prod` channel, if you are going to deploy to production channel, please specify `--prod` such as `lets deploy --prod` when you are going to deploy.
+链接的域名仅会绑定到 `prod` 环境，同时如果您想要部署到生产频道，请在部署时指定 `--prod`， 例如 `lets deploy --prod`。
 
 ## Deployment
 
-Every project could contains mulitple deployments. The newer deployment in the same channel will replace the previous deployment.
+每个项目都可以有非常多的部署，同一环境中部署新的服务，会更新掉上一次部署的服务。
 
 ## Domain
 
-let.sh provides public domain like `xxx.let.sh`, you could directly run `lets link xxx.let.sh` for whatever you want if the domain haven't taken by others.
+let.sh 提供了像 `xxx.let.sh` 这样的公共域名，如果该域没有被其他人占用，你可以直接运行 `lets link xxx.let.sh` 来获取任何你想要的域名。
 
-If you are willing to use your private domain, please register and verify ownership of the domain at the let.sh console in advance.
+如果您愿意使用您自己的域名，请提前在 let.sh 控制台注册并验证该域的所有权。
 
 ## Link
 
-Link the domain to current project
+绑定域名到当前项目
