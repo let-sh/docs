@@ -14,7 +14,6 @@ Open your terminal, copy the the command below and run it:
   <code-block label="linux/macOS" active>
 
 ```bash
-# install cli
 curl -o- -sL https://install.let.sh/install.sh | bash
 ```
 
@@ -22,7 +21,6 @@ curl -o- -sL https://install.let.sh/install.sh | bash
   <code-block label="Windows">
 
 ```powershell
-# install cli
 iwr https://install.let.sh/install.ps1 -useb | iex
 ```
 

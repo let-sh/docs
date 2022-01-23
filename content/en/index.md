@@ -1,7 +1,7 @@
 ---
 title: Quick start
 category: Quick Start
-position: 0
+position: 1
 badge: Starter
 ---
 
@@ -15,7 +15,6 @@ Open your terminal, copy the the command below and run it:
   <code-block label="linux/macOS" active>
 
 ```bash
-# install cli
 curl -o- -sL https://install.let.sh/install.sh | bash
 ```
 
@@ -23,7 +22,6 @@ curl -o- -sL https://install.let.sh/install.sh | bash
   <code-block label="Windows">
 
 ```powershell
-# install cli
 iwr https://install.let.sh/install.ps1 -useb | iex
 ```
 
@@ -33,7 +31,6 @@ iwr https://install.let.sh/install.ps1 -useb | iex
 ### Login
 
 ```bash
-# login with your github account
 lets login
 ```
 
@@ -43,7 +40,6 @@ lets login
   <code-block label="static" active>
 
 ```bash
-# static hosting
 lets init static
 lets deploy
 ```
@@ -52,7 +48,6 @@ lets deploy
   <code-block label="react">
 
 ```bash
-# react framework
 lets init react
 lets deploy
 ```
@@ -61,7 +56,6 @@ lets deploy
   <code-block label="flask">
 
 ```bash
-# python flask framework
 lets init flask
 lets deploy
 ```
@@ -70,7 +64,6 @@ lets deploy
   <code-block label="express">
 
 ```bash
-# node express framework
 lets init express
 lets deploy
 ```
@@ -79,7 +72,7 @@ lets deploy
   <code-block label="gin">
 
 ```bash
-# golang gin framework
+
 lets init gin
 lets deploy
 ```
@@ -89,8 +82,9 @@ lets deploy
 
 ### Link the domain to the project
 
+> you can custom xxxx.let.sh with any other domain ending with let.sh
+> 
 ```bash
-# you can custom xxxx.let.sh with any other domain ending with let.sh
 lets link xxxx.let.sh
 ```
 
