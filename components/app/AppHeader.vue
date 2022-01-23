@@ -7,37 +7,38 @@
     <div class="container mx-auto flex-1 px-4 lg:px-8">
       <div class="flex items-center justify-between h-16">
         <div class="lg:w-1/5 flex items-center pr-4" @click.stop="noop">
-          <NuxtLink
-            :to="localePath('/')"
-            class="flex-shrink-0 flex-1 font-bold text-xl"
-            :aria-label="`${settings.title} Logo`"
-          >
-            <span v-if="!logo">{{ settings.title }}</span>
-
-            <img
-              v-if="logo"
-              :src="logo.light"
-              class="h-8 max-w-full light-img"
-              :alt="settings.title"
-            />
-            <img
-              v-if="logo"
-              :src="logo.dark"
-              class="h-8 max-w-full dark-img"
-              :alt="settings.title"
-            />
-          </NuxtLink>
-          <a
-            href="https://alpha.let.sh"
-            class="flex-shrink-0 flex-1 font-bold text-xl"
-            :aria-label="`${settings.title} Logo`"
-          >
-            <span
-              class="inline-flex items-center px-3 py-1 leading-5 rounded-full text-base tracking-tight bg-primary-100 dark:bg-primary-900 text-primary-500"
+          <div>
+            <a
+              href="https://alpha.let.sh"
+              class="flex-shrink-0 flex-1 font-bold inline-block align-middle"
+              :aria-label="`${settings.title} Logo`"
             >
-              go back
-            </span>
-          </a>
+              <IconChevronRight
+                class="w-6 h-6 inline"
+                style="transform: scaleX(-1)"
+              />
+            </a>
+            <NuxtLink
+              :to="localePath('/')"
+              class="flex-shrink-0 flex-1 font-bold text-xl inline-block align-middle"
+              :aria-label="`${settings.title} Logo`"
+            >
+              <span v-if="!logo">{{ settings.title }}</span>
+
+              <img
+                v-if="logo"
+                :src="logo.light"
+                class="h-8 max-w-full light-img align-middle"
+                :alt="settings.title"
+              />
+              <img
+                v-if="logo"
+                :src="logo.dark"
+                class="h-8 max-w-full dark-img align-middle"
+                :alt="settings.title"
+              />
+            </NuxtLink>
+          </div>
         </div>
         <div
           v-if="settings.layout !== 'single'"
@@ -65,6 +66,7 @@
             >{{ lastRelease.name }}</NuxtLink
           >
           <AppLangSwitcher />
+          <AppColorSwitcher />
           <div class="flex items-center">
             <a
               v-if="settings.twitter"

@@ -20,9 +20,11 @@ export default theme({
 
   i18n: {
     // silentTranslationWarn: true,
+    // strategy: 'no_prefix',
     vueI18n: {
       silentTranslationWarn: true
     },
+    lazy: true,
     locales: () => [{
       code: 'zh',
       iso: 'zh-CN',
@@ -33,13 +35,18 @@ export default theme({
       iso: 'en-US',
       file: 'en-US.js',
       name: 'English'
-    }]
+    }],
+    detectBrowserLanguage: {
+      useCookie: true,
+      cookieKey: 'i18n_redirected',
+      redirectOn: 'root' // recommended
+    }
     // defaultLocale: 'en'
   },
 
   content: {
     // Disable for security reason on CodeSandBox
-    liveEdit: true,
+    liveEdit: true
     // markdown: {
     //   rehypePlugins: ['~/plugins/rehype-content-image.js']
     // }
