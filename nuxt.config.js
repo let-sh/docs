@@ -17,7 +17,9 @@ export default theme({
       '~/components/global/markdown'
     ]
   },
-
+  colorMode: {
+    preference: 'system'
+  },
   i18n: {
     // silentTranslationWarn: true,
     // strategy: 'no_prefix',
