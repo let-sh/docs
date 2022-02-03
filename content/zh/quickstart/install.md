@@ -7,7 +7,7 @@ badge: Starter
 
 ### 安装命令行工具
 
-打开你的命令行应用, 复制以下命令并点击 `enter` 执行:
+打开电脑命令行，复制粘贴以下命令，随后按回车键(Enter)执行:
 
 <code-group>
   <code-block label="linux/macOS" active>

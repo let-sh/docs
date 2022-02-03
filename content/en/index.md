@@ -34,7 +34,7 @@ iwr https://install.let.sh/install.ps1 -useb | iex
 lets login
 ```
 
-### Then clone example project and deploy with a single command line
+### Clone your project from the repository you desire and use a single command line to deploy
 
 <code-group>
   <code-block label="static" active>
@@ -82,7 +82,7 @@ lets deploy
 
 ### Link the domain to the project
 
-> you can custom xxxx.let.sh with any other domain ending with let.sh
+> You can use your custom domain name ending with let.sh, such as XXX.let.sh.  
 > 
 ```bash
 lets link xxxx.let.sh

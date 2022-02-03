@@ -7,8 +7,7 @@ badge: Starter
 
 ### Install command line tools
 
-Open your terminal, copy the the command below and run it:
-
+Open your terminal, copy and paste the command below. Next, run it:
 <code-group>
   <code-block label="linux/macOS" active>
 

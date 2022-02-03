@@ -29,7 +29,7 @@ iwr https://install.let.sh/install.ps1 -useb | iex
 
 ### Login
 
-> product have been released, you could contact contect@let.sh for further information.
+> product have been released, you could contact contact@let.sh for further information.
 
 currently only support login via github
 
