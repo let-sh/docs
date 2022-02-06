@@ -15,14 +15,14 @@ Open your terminal, copy the the command below and run it:
   <code-block label="linux/macOS" active>
 
 ```bash
-curl -o- -sL https://install.let.sh/install.sh | bash
+curl -o- -sL https://install.let-sh.com/install.sh | bash
 ```
 
   </code-block>
   <code-block label="Windows">
 
 ```powershell
-iwr https://install.let.sh/install.ps1 -useb | iex
+iwr https://install.let-sh.com/install.ps1 -useb | iex
 ```
 
   </code-block>
@@ -82,8 +82,8 @@ lets deploy
 
 ### Link the domain to the project
 
-> You can use your custom domain name ending with let.sh, such as XXX.let.sh.  
-> 
+> You can use your custom domain name ending with let.sh, such as XXX.let.sh.
+
 ```bash
 lets link xxxx.let.sh
 ```

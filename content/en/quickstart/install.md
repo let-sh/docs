@@ -8,18 +8,19 @@ badge: Starter
 ### Install command line tools
 
 Open your terminal, copy and paste the command below. Next, run it:
+
 <code-group>
   <code-block label="linux/macOS" active>
 
 ```bash
-curl -o- -sL https://install.let.sh/install.sh | bash
+curl -o- -sL https://install.let-sh.com/install.sh | bash
 ```
 
   </code-block>
   <code-block label="Windows">
 
 ```powershell
-iwr https://install.let.sh/install.ps1 -useb | iex
+iwr https://install.let-sh.com/install.ps1 -useb | iex
 ```
 
   </code-block>
