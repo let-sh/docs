@@ -7,5 +7,5 @@ badge: Alpha
 
 ## What is development?
 
-During our development proccess, its always hard to start your service, debugging and share with other to preview you services. Thats why we created the `development`(`lets dev` in CLI) for you to start your service from localhost, debugging and even directly share with others.
+In the development proccess, starting your service, debugging, and sharing with others to preview you services can be a very complex task. Thats why we created the `development`(`lets dev` in CLI) for you to start your service from localhost, debug and even directly share with others.
 

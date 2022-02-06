@@ -6,20 +6,20 @@ position: 50
 
 ## Project
 
-Currently every project have two channels, `dev` and `prod`, and the deployments in two channels are individual.
+Currently, every project has two channels, `dev` and `prod`, and the two channels are deployed separately.
 
-The linked domains only avaliable on `prod` channel, if you are going to deploy to production channel, please specify `--prod` such as `lets deploy --prod` when you are going to deploy.
+The linked domains are only avaliable on `prod` channel. If you are going to deploy to the production channel, please specify `--prod` such as `lets deploy --prod` when you are going to deploy.
 
 ## Deployment
 
-Every project could contains mulitple deployments. The newer deployment in the same channel will replace the previous deployment.
+Each project could contain mulitple deployments. The new update deployment will replace the previous deployment of the same channel.
 
 ## Domain
 
-let.sh provides public domain like `xxx.let.sh`, you could directly run `lets link xxx.let.sh` for whatever you want if the domain haven't taken by others.
+let.sh provides public domain like `xxx.let.sh`. You can run `lets link xxx.let.sh` to get any domain name you like if it is not already occupied.
 
-If you are willing to use your private domain, please register and verify ownership of the domain at the let.sh console in advance.
+If you are willing to use your private domain, please register and verify domain ownership in advance at the let.sh console.
 
 ## Link
 
-Link the domain to current project
+Link the domain to the current project.
