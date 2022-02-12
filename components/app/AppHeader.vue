@@ -1,24 +1,52 @@
 <template>
   <nav
-    class="fixed top-0 z-40 w-full border-b dark:border-gray-800 bg-white dark:bg-gray-900"
+    class="fixed top-0 z-40 w-full border-b dark:border-gray-800 bg-white dark:bg-gray-900 text-base"
     :class="{ 'shadow border-transparent': scrolled }"
     @click="scrollToTop"
   >
+    <div class="logo absolute m-3">
+      <a href="https://let.sh" class="inline-block">
+        <div
+          class="back-button px-3 py-2 font-extrabold"
+          :style="{
+            'border-radius': '20px',
+          }"
+        >
+          <IconChevronRight
+            class="w-5 h-5 inline"
+            style="transform: scaleX(-1)"
+          />
+          <p>Back To Console</p>
+        </div>
+      </a>
+
+      <NuxtLink
+        :to="localePath('/')"
+        class="flex-shrink-0 flex-1 text-2xl font-sans inline-block align-middle ml-4"
+        :aria-label="`${settings.title} Logo`"
+      >
+        <span v-if="!logo">{{ settings.title }}</span>
+
+        <img
+          v-if="logo"
+          :src="logo.light"
+          class="h-8 max-w-full light-img align-middle"
+          :alt="settings.title"
+        />
+        <img
+          v-if="logo"
+          :src="logo.dark"
+          class="h-8 max-w-full dark-img align-middle"
+          :alt="settings.title"
+        />
+      </NuxtLink>
+    </div>
+
     <div class="container mx-auto flex-1 px-4 lg:px-8">
       <div class="flex items-center justify-between h-16">
         <div class="lg:w-1/5 flex items-center pr-4" @click.stop="noop">
           <div>
-            <a
-              href="https://alpha.let.sh"
-              class="flex-shrink-0 flex-1 font-bold inline-block align-middle"
-              :aria-label="`${settings.title} Logo`"
-            >
-              <IconChevronRight
-                class="w-6 h-6 inline"
-                style="transform: scaleX(-1)"
-              />
-            </a>
-            <NuxtLink
+            <!-- <NuxtLink
               :to="localePath('/')"
               class="flex-shrink-0 flex-1 font-bold text-xl inline-block align-middle"
               :aria-label="`${settings.title} Logo`"
@@ -37,7 +65,7 @@
                 class="h-8 max-w-full dark-img align-middle"
                 :alt="settings.title"
               />
-            </NuxtLink>
+            </NuxtLink> -->
           </div>
         </div>
         <div
@@ -164,3 +192,21 @@ export default {
   },
 };
 </script>
+
+<style>
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.back-button {
+  background-color: rgb(135 146 169 / 15%);
+  transition-duration: 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.back-button:hover {
+  background-color: rgb(135 146 169 / 40%);
+}
+</style>
