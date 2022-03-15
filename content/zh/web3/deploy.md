@@ -1,9 +1,13 @@
 ---
-title: Deploy to web3 infra
+title: Deploy to Web3 infra
 category: Web3
 position: 500
 badge: Starter
 ---
+
+<iframe width="640" height="360"
+src="https://www.youtube.com/embed/luSII1dRAZo">
+</iframe>
 
 <alert type="warning">
 
