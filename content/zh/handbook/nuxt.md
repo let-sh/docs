@@ -1,7 +1,7 @@
 ---
 title: Nuxt.js
 category: 指引
-position: 203
+position: 212
 badge: Starter
 ---
 
