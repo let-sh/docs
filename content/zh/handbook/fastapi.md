@@ -21,7 +21,9 @@ lets init fastapi
 uvicorn main:app
 ```
 
-## Define you dependency in your pythons projects
+## [Optional] Define you dependency in your python projects
+
+> if you already created the file `requirements.txt`, you can skip this step.
 
 <code-group>
   <code-block label="manually" active>

@@ -25,7 +25,7 @@ lets init flask
 flask run
 ```
 
-## Define you dependency in your pythons projects
+## Define you dependency in your python projects
 
 <code-group>
   <code-block label="manually" active>
