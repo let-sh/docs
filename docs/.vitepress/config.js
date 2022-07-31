@@ -41,17 +41,6 @@ const config = {
           ]
         },
         {
-          text: 'Concept',
-          collapsible: true,
-          collapsed: true,
-          items: [
-            { text: 'Basic', link: '/concept/basic' },
-            { text: 'Development', link: '/concept/development' },
-            { text: 'Table', link: '/concept/table' },
-          ]
-        },
-
-        {
           text: 'Handbook',
           collapsible: true,
           collapsed: true,
@@ -73,6 +62,17 @@ const config = {
           ]
         },
                 
+        {
+          text: 'Concept',
+          collapsible: true,
+          collapsed: true,
+          items: [
+            { text: 'Basic', link: '/concept/basic' },
+            { text: 'Development', link: '/concept/development' },
+            { text: 'Table', link: '/concept/table' },
+          ]
+        },
+
         {
           text: 'Cli',
           collapsible: true,
@@ -112,7 +112,7 @@ const config = {
           collapsed: true,
           items: [
             { text: 'Tables', link: '/tables/tables' },
-            { text: 'Routing', link: '/network/routing' },
+            { text: 'API', link: '/tables/api' },
           ]
         },
         {
