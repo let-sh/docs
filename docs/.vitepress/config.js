@@ -36,7 +36,7 @@ const config = {
           collapsible: true,
           collapsed: false,
           items: [
-            { text: 'Quick Start', link: '/quickstart/' },
+            { text: 'Quick Start', link: '/' },
             { text: 'Install Cli', link: '/quickstart/install' },
           ]
         },

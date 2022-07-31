@@ -7,11 +7,11 @@ badge: Pro
 
 # {{ $frontmatter.title }}
 
-# Overview
+## Overview
 
 You use static routing features like redirects, rewrites in [let.sh](alpha.let.sh).
 
-# Rules
+## Rules
 
 Priority order of [let.sh](alpha.let.sh) edges routing responses:
 

@@ -15,6 +15,10 @@ Open your terminal, copy and paste the command below. Next, run it:
 # linux/macOS
 curl -o- -sL https://install.let-sh.com/install.sh | bash
 
+# Or using homebrew
+# brew tap let-sh/homebrew-tap
+# brew install lets
+
 # Windows
 iwr https://install.let-sh.com/install.ps1 -useb | iex
 ```

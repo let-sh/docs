@@ -29,14 +29,13 @@ uvicorn main:app
 
 ```bash
 # manually config requirements.txt
-
 echo "fastapi" > requirements.txt
 
 # if you are using pipenv <https://github.com/pypa/pipenv>, you could directly init via `pipenv lock`
-pipenv lock -r > requirements.txt
+# pipenv lock -r > requirements.txt
 
 # if you are using poetry <https://python-poetry.org/docs/cli/>, you could directly init via `poetry export`
-poetry export -f requirements.txt --output requirements.txt
+# poetry export -f requirements.txt --output requirements.txt
 ```
 
 ## Deploy to let.sh
