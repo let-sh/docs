@@ -17,14 +17,14 @@ const config = {
       { icon: 'github', link: 'https://github.com/let-sh/docs' },
     ],
     nav: [
-      { text: 'let.sh', link: 'https://let.sh' },
-      {
-        text: 'Language',
-        items: [
-          { text: 'EN', link: '/' },
-          { text: '中文', link: '/zh/' }
-        ]
-      }
+      { text: 'Back to let.sh', link: 'https://let.sh' },
+      // {
+      //   text: 'Language',
+      //   items: [
+      //     { text: 'EN', link: '/' },
+      //     { text: '中文', link: '/zh/' }
+      //   ]
+      // }
     ],
     sidebar: {
       // '/zh/': [
